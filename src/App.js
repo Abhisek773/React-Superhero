@@ -21,7 +21,7 @@ function App() {
 
     setSearchText(searchTerm);
 
-    if (searchTerm.length == 0) {
+    if (searchTerm.length === 0) {
       setSuperheroData([]);
     }
 
